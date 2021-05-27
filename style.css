@@ -267,6 +267,25 @@ body {
   margin-top: -15px;
 }
 .notify {
+  display: flex;
+  flex-direction: column;
+  background: url("./assets/bg-footer-squiggle.svg");
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 100vw;
   color: #fff;
   font-family: "Manrope";
+}
+.notify-header h2 {
+  color: #fff;
+  text-align: center;
+}
+.notify-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
 }
