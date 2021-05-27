@@ -299,6 +299,10 @@ body {
   border-width: 0;
 }
 
+.form input:focus-visible {
+  outline: none;
+}
+
 .btn {
   background-color: #3ee9e5;
   height: 40px;
