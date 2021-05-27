@@ -279,6 +279,7 @@ body {
 .notify-header h2 {
   color: #fff;
   text-align: center;
+  margin: 50px 0;
 }
 .notify-form {
   display: flex;
@@ -287,5 +288,33 @@ body {
   align-items: center;
 }
 
-.form {
+.form input {
+  background-color: #093f68;
+  color: #fff;
+  border-radius: 20px;
+  height: 50px;
+  width: 400px;
+  text-align: left;
+  padding-left: 10px;
+  border-width: 0;
+}
+
+.btn {
+  background-color: #3ee9e5;
+  height: 40px;
+  width: 150px;
+  border-radius: 15px;
+  margin-left: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #093f68;
+  padding: 0 20px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  border: 3px solid #3ee9e5;
+  background-color: #093f68;
+  color: #fff;
 }
