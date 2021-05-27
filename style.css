@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@500;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #080c20;
+}
+
+.logo img {
+  margin: 20px;
+}
+
+.container {
+  max-width: 1500px;
+}
+
+.hero-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Manrope", sans-serif;
+  width: 100vw;
+  height: 30vh;
+  margin-top: 100px;
+}
+
+.hero-container img {
+  width: 350px;
+}
+
+.hero-heading {
+  font-weight: 800;
+  font-size: 48px;
+  width: 500px;
+  color: #fff;
+}
+
+.center-hero {
+  background: url("./assets/bg-hero-squiggle.svg");
+  margin: 25px 45px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.teal {
+  color: #3ee9e5;
+}
+
+.text {
+  font-family: "Manrope";
+  font-weight: 500;
+  font-size: 14px;
+  width: 300px;
+  text-align: center;
+  margin-top: 25px;
+  color: #fff;
+}
+
+.perks-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 200px 25px 100px 25px;
+}
+
+.image-low {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  width: 150px;
+  background: #093f68;
+  border-radius: 45px;
+  margin-bottom: 30px;
+}
+
+.perk-heading {
+  color: #fff;
+}
+
+.perk-low {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.perk-high {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
