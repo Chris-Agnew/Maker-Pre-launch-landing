@@ -373,6 +373,9 @@ body {
 }
 
 @media screen and (max-width: 500px) {
+  .logo {
+    padding: 0px;
+  }
   .container {
     max-width: 100vw;
     display: flex;
