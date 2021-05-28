@@ -128,17 +128,22 @@
         </div>
         <div class="notify-form">
           <div class="form">
-            <form action="">
-              <input
-                type="email"
-                name="email"
-                id="email"
-                placeholder="Email address"
-              />
+            <form id="form" action="">
+              <div class="input-container">
+                <div class="input">
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="Email address"
+                  />
+                  <div id="error"></div>
+                </div>
+                <div class="input">
+                  <button class="btn" type="submit">Get notified</button>
+                </div>
+              </div>
             </form>
-          </div>
-          <div class="button">
-            <button class="btn" type="submit">Get notified</button>
           </div>
         </div>
       </div>
