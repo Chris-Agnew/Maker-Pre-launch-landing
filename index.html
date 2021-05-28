@@ -11,6 +11,7 @@
   <body>
     <div class="container">
       <div class="logo"><img src="./assets/logo.svg" alt="" /></div>
+      <div class="hidden"></div>
       <div class="hero-container">
         <div class="left-hero">
           <img src="./assets/illustration-hero-left.svg" alt="" />
@@ -131,14 +132,15 @@
             <form id="form" action="">
               <div class="input-container">
                 <div class="input">
+                  <div id="error"></div>
                   <input
                     type="email"
                     name="email"
                     id="email"
                     placeholder="Email address"
                   />
-                  <div id="error"></div>
                 </div>
+
                 <div class="input">
                   <button class="btn" type="submit">Get notified</button>
                 </div>

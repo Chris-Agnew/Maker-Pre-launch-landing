@@ -2,7 +2,7 @@ const email = document.getElementById("email");
 const error = document.getElementById("error");
 const form = document.getElementById("form");
 
-let validate = () => {
+const validate = () => {
   form.addEventListener("submit", (e) => {
     let messages = [];
     if (email.value == "" || email.value == null) {
@@ -11,7 +11,7 @@ let validate = () => {
 
     if (messages.length > 0) {
       e.preventDefault();
-      error.innerHTML = messages.join(", ");
+      error.innerText = messages.join(", ");
     }
   });
 };
