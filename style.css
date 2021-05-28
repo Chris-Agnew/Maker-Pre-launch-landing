@@ -426,7 +426,7 @@ body {
   }
   .text {
     text-align: center;
-    padding-left: 50px;
+    padding: 0 25px;
   }
   .scroll-container {
     display: flex;
@@ -451,6 +451,7 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin: 300px 0 50px 0;
   }
   .perks-container .text {
     padding: 0;
@@ -486,6 +487,7 @@ body {
   .option-left {
     height: 390px;
     width: 300px;
+    margin-right: 0;
     border-radius: 10px;
     margin-bottom: 75px;
   }
@@ -570,6 +572,7 @@ body {
     width: 80vw;
     border-radius: 30px;
     font-weight: 800;
+    margin-left: 0px;
   }
 
   .btn:hover {
