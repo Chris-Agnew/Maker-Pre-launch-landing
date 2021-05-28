@@ -10,6 +10,14 @@ body {
   background-color: #080c20;
 }
 
+.logo {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  width: 100vw;
+  padding-left: 100px;
+}
+
 .logo img {
   margin: 20px;
 }
@@ -281,7 +289,7 @@ body {
   background-repeat: no-repeat;
   height: 300px;
   width: 100vw;
-  background-size: cover;
+  background-size: 100%;
   color: #fff;
   font-family: "Manrope";
 }
@@ -302,7 +310,7 @@ body {
   color: #fff;
   border-radius: 20px;
   height: 50px;
-  width: 400px;
+  width: 200px;
   text-align: left;
   padding-left: 10px;
   border-width: 0;
@@ -330,4 +338,16 @@ body {
   border: 2px solid #3ee9e5;
   background-color: #080c20;
   color: #fff;
+}
+
+@media screen and (min-width: 300px) {
+}
+
+@media screen and (min-width: 768px) {
+}
+
+@media screen and (min-width: 1800px) {
+  .logo {
+    justify-content: center;
+  }
 }
