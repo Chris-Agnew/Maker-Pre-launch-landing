@@ -324,9 +324,9 @@ body {
 .form input {
   background-color: #093f68;
   color: #fff;
-  border-radius: 30px;
+  border-radius: 20px;
   height: 50px;
-  width: 200px;
+  width: 300px;
   text-align: left;
   padding-left: 10px;
   border-width: 0;
