@@ -293,6 +293,8 @@ body {
   background-repeat: no-repeat;
   height: 300px;
   font-family: "Manrope";
+  background-size: 100%;
+  width: 100vw;
 }
 .notify-header {
   display: flex;
@@ -363,13 +365,8 @@ body {
   color: #ff2965;
 }
 
-.error-container {
-  display: none;
-}
-.error-container {
-  display: block;
-  color: #fff;
-  margin-bottom: 50px;
+.padding {
+  margin-bottom: 30px;
 }
 
 @media screen and (max-width: 500px) {
