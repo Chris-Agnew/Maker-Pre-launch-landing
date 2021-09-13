@@ -3,166 +3,368 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <link rel="stylesheet" href="style.css" />
-
+    <link rel="stylesheet" href="tailwind.css" />
     <title>Maker pre-launch landing page</title>
   </head>
-  <body>
-    <div class="container">
-      <div class="logo"><img src="./assets/logo.svg" alt="Maker Logo" /></div>
-      <div class="hidden"></div>
-      <div class="hero-container">
-        <div class="left-hero">
+  <body class="bg-dark-blue font-manrope">
+    <div>
+      <div
+        class="
+          flex
+          justify-center
+          items-center
+          md:justify-start
+          pl-5
+          h-20
+          flex-col
+          lg:py-5
+        "
+      >
+        <img src="./assets/logo.svg" alt="Maker Logo" />
+      </div>
+      <div class="flex flex-col md:flex-row">
+        <div class="flex justify-center items-center text-center">
+          <img
+            src="./assets/illustration-hero-mobile.png"
+            alt="MakerHero Illustration"
+            class="md:hidden"
+          />
+        </div>
+        <div class="hidden md:flex md:w-1/5">
           <img
             src="./assets/illustration-hero-left.svg"
             alt="Maker Left Hero Illustration"
           />
         </div>
-        <div class="center-hero">
-          <h1 class="hero-heading">
-            Get paid for the work you <span class="teal">love</span> to do.
+
+        <div class="md:w-3/5 p-5 text-white md:bg-hero-pattern md:bg-contain">
+          <h1 class="p-2 text-4xl text-center m-10">
+            Get paid for the work you
+            <span class="text-light-blue">love</span> to do.
           </h1>
-          <p class="text">
+          <p class="text-text-gray p-5">
             The 9-5 grind is so last century. We believe in living life on your
             own terms. Whether you’re looking to escape the rat race or set up a
             side hustle, we’ve got you covered.
           </p>
         </div>
-        <div class="right-hero">
+        <div class="hidden md:flex md:w-1/5">
           <img
             src="./assets/illustration-hero-right.svg"
             alt="Maker Left Hero Illustration"
           />
         </div>
       </div>
-      <div class="scroll-container">
-        <div class="scroll-icon">
-          <img src="./assets/icon-scroll.svg" alt="Scroll Icon" />
-        </div>
+      <div class="flex justify-center items-center mt-2 mb-5">
+        <img src="./assets/icon-scroll.svg" alt="Scroll Icon" />
       </div>
-
-      <div class="perks-container">
-        <div class="perk-high">
-          <div class="image-low">
+      <div class="pt-20 lg:flex">
+        <div
+          class="
+            flex
+            justify-center
+            items-center
+            flex-col
+            md:flex-row
+            lg:flex-col
+            p-5
+            mb-20
+            md:p-12 md:ml-20
+            lg:ml-0
+          "
+        >
+          <div
+            class="
+              h-36
+              w-36
+              bg-medium-blue
+              flex
+              justify-center
+              items-center
+              rounded-3xl
+            "
+          >
             <img src="./assets/illustration-passions.svg" alt="Perk Icon" />
           </div>
-          <h3 class="perk-heading">Indulge your passions</h3>
-          <p class="text">
-            Your passions shouldn't be just for the weekend. Earn a living doing
-            what you love.
-          </p>
+          <div>
+            <h3 class="text-white text-2xl my-3 text-center">
+              Indulge your passions
+            </h3>
+            <p class="text-text-gray p-5 text-center">
+              Your passions shouldn't be just for the weekend. Earn a living
+              doing what you love.
+            </p>
+          </div>
         </div>
-        <div class="perk-low">
-          <div class="image-low">
+        <div
+          class="
+            flex
+            justify-center
+            items-center
+            flex-col
+            lg:flex-col
+            p-5
+            mb-20
+            md:flex-row md:p-12
+            lg:mt-20
+          "
+        >
+          <div
+            class="
+              h-36
+              w-36
+              bg-medium-blue
+              flex
+              justify-center
+              items-center
+              rounded-3xl
+            "
+          >
             <img
               src="./assets/illustration-financial-freedom.svg"
               alt="Perk Icon"
             />
           </div>
-          <h3 class="perk-heading">Gain financial freedom</h3>
-          <p class="text">
-            Start making money work for you. There’s nothing quite like earning
-            while you sleep.
-          </p>
+          <div>
+            <h3 class="text-white text-2xl my-3 text-center">
+              Gain financial freedom
+            </h3>
+            <p class="text-text-gray p-5 text-center">
+              Start making money work for you. There’s nothing quite like
+              earning while you sleep.
+            </p>
+          </div>
         </div>
-        <div class="perk-high">
-          <div class="image-low">
+        <div
+          class="
+            flex
+            justify-center
+            items-center
+            flex-col
+            md:flex-row
+            p-5
+            md:p-12
+            mb-20
+            md:ml-20
+            lg:ml-0 lg:flex-col
+          "
+        >
+          <div
+            class="
+              h-36
+              w-36
+              bg-medium-blue
+              flex
+              justify-center
+              items-center
+              rounded-3xl
+            "
+          >
             <img src="./assets/illustration-lifestyle.svg" alt="Perk Icon" />
           </div>
-          <h3 class="perk-heading">Choose your lifestyle</h3>
-          <p class="text">
-            Own your daily schedule. Fancy a lie-in? Go for it! Take charge of
-            your week.
-          </p>
+          <div>
+            <h3 class="text-white text-2xl my-3 text-center">
+              Choose your lifestyle
+            </h3>
+            <p class="text-text-gray p-5 text-center">
+              Own your daily schedule. Fancy a lie-in? Go for it! Take charge of
+              your week.
+            </p>
+          </div>
         </div>
-        <div class="perk-low">
-          <div class="image-low">
+        <div
+          class="
+            flex
+            justify-center
+            items-center
+            flex-col
+            md:flex-row
+            p-5
+            mb-20
+            md:p-12
+            lg:flex-col lg:mt-28
+          "
+        >
+          <div
+            class="
+              h-36
+              w-36
+              bg-medium-blue
+              flex
+              justify-center
+              items-center
+              rounded-3xl
+            "
+          >
             <img
               src="./assets/illustration-work-anywhere.svg"
               alt="Perk Icon"
             />
           </div>
-          <div class="tablet">
-            <h3 class="perk-heading">Work from anywhere</h3>
-            <p class="text">
-              Selling online means not being pinned down. Want to work AND
-              travel? Go for it!
-            </p>
+          <div
+            class="
+              flex
+              justify-center
+              items-center
+              flex-col
+              md:flex-row
+              p-5
+              mb-5
+            "
+          >
+            <div>
+              <h3 class="text-white text-2xl my-3 text-center">
+                Work from anywhere
+              </h3>
+              <p class="text-text-gray p-5 text-center">
+                Selling online means not being pinned down. Want to work AND
+                travel? Go for it!
+              </p>
+            </div>
           </div>
         </div>
       </div>
-      <div class="pricing-plans">
-        <h2 class="pricing-heading">Our pricing plans</h2>
-        <p class="text pricing-plan-text">
+      <div class="text-white flex flex-col justify-center items-center">
+        <h2 class="text-white text-3xl my-3">Our pricing plans</h2>
+        <p class="text-text-gray p-5 md:w-2/3 text-center">
           We only make money when our creators make money. Our plans are always
           affordable, and it’s completely free to get started.
         </p>
       </div>
-      <div class="price-options">
-        <div class="option-left">
-          <div class="icon">
-            <img src="./assets/icon-free.svg" alt="Pricing Icon" />
+      <div class="flex justify-center items-center flex-col lg:flex-row">
+        <div
+          class="
+            w-5/6
+            md:w-1/2 md:h-96
+            lg:w-1/4
+            h-full
+            bg-medium-blue
+            rounded-lg
+            mt-20
+            p-5
+            pt-0
+            lg:mr-10
+          "
+        >
+          <div class="relative">
+            <img
+              src="./assets/icon-free.svg"
+              alt="Pricing Icon"
+              class="absolute -top-5 left-5"
+            />
           </div>
-          <h3 class="options-left-heading">Dip your toe</h3>
-          <p class="left-options-text">
+          <h3 class="text-white text-2xl mt-3 p-5">Dip your toe</h3>
+          <p class="text-text-gray p-2">
             Just getting started? No problem at all! Our free plan will take you
             a long way.
           </p>
-          <h1 class="options-price-left">Free</h1>
-          <div class="bullets-left">
-            <ul>
-              <li>Unlimited Products</li>
+          <h1 class="p-5 text-4xl text-white">Free</h1>
+          <div class="mx-5">
+            <ul class="text-gray-200">
+              <li class="">Unlimited Products</li>
               <li>Basic analytics</li>
               <li>Limited marketplace exposure</li>
               <li>10% fee per transaction</li>
             </ul>
           </div>
         </div>
-        <div class="option-right">
-          <div class="icon-paid icon">
-            <img src="./assets/icon-paid.svg" alt="Pricing Icon" />
-          </div>
-          <h3 class="options-right-heading">Dive right in</h3>
-          <p class="options-right-text">
-            Ready for the big time? Our paid plan will help you take your
-            business to the next level.
-          </p>
-          <h1 class="options-price-right">$25.00/month</h1>
-          <div class="bullets-right">
-            <ul>
-              <li>Custom domain</li>
-              <li>Advanced analytics and reports</li>
-              <li>High marketplace exposure</li>
-              <li>5% fee per transaction</li>
-            </ul>
+        <div
+          class="
+            flex
+            justify-center
+            items-center
+            flex-col
+            w-5/6
+            lg:w-1/4
+            h-full
+            bg-light-blue
+            rounded-lg
+            mt-20
+            p-5
+            pt-0
+            md:w-1/2 md:h-96
+          "
+        >
+          <div class="flex justify-center items-center flex-col">
+            <div class="relative">
+              <img
+                src="./assets/icon-paid.svg"
+                alt="Pricing Icon"
+                class="absolute -top-5 left-5"
+              />
+            </div>
+            <h3 class="text-black text-2xl mt-3 p-5">Dive right in</h3>
+            <p class="text-black p-2 font-light">
+              Ready for the big time? Our paid plan will help you take your
+              business to the next level.
+            </p>
+            <h1 class="p-5 text-4xl text-black">$25.00/month</h1>
+            <div class="mx-5">
+              <ul class="text-black">
+                <li>Custom domain</li>
+                <li>Advanced analytics and reports</li>
+                <li>High marketplace exposure</li>
+                <li>5% fee per transaction</li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
-      <div class="notify">
-        <div class="notify-header">
-          <h2>Get notified when we launch</h2>
+      <div class="h-full mt-5 mb-28">
+        <div class="bg-email-pattern w-screen h-28 relative bg-contain">
+          <h2
+            class="
+              text-2xl text-white
+              absolute
+              top-1/4
+              left-12
+              md:top-1/3 md:left-1/3
+            "
+          >
+            Get notified when we launch
+          </h2>
         </div>
-        <div class="notify-form">
-          <div class="form">
-            <form id="form" action="">
-              <div class="input-container">
-                <div class="input">
-                  <input
-                    type="email"
-                    name="email"
-                    id="email"
-                    placeholder="Email address"
-                  />
-                  <p id="error"></p>
-                </div>
 
-                <div class="input">
-                  <button class="btn" type="submit">Get notified</button>
-                </div>
+        <div class="pb-0">
+          <form id="form" action="">
+            <div class="md:flex md:justify-center md:items-center md:w-full">
+              <div
+                class="
+                  flex
+                  justify-center
+                  items-center
+                  flex-col
+                  text-error-red
+                  md:w-1/2
+                "
+              >
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="Email address"
+                  class="w-5/6 bg-medium-blue rounded-full p-5"
+                />
+                <span class="p-2 text-xs" id="error"></span>
               </div>
-            </form>
-          </div>
+              <div
+                class="
+                  flex
+                  justify-center
+                  items-center
+                  py-5
+                  md:w-1/4 md:justify-start
+                "
+              >
+                <button
+                  class="w-5/6 rounded-full bg-light-blue p-5 md:px-0 lg:w-2/3"
+                  type="submit"
+                >
+                  Get notified
+                </button>
+              </div>
+            </div>
+          </form>
         </div>
       </div>
     </div>
